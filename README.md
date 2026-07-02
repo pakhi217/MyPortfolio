@@ -1,4 +1,4 @@
-# ✨ Personal Portfolio — Alexandra Whitmore
+# ✨ Personal Portfolio — PAKHI SAXENA
 
 A premium personal portfolio website built with **React + Vite + Tailwind CSS + Framer Motion**, featuring a UK-inspired feminine luxury aesthetic with glassmorphism, editorial typography, and smooth animations.
 
