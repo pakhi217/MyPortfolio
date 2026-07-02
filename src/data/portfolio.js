@@ -1,94 +1,78 @@
 /**
  * ============================================================
- *  PORTFOLIO CONFIGURATION FILE
- *  Edit this file to update your entire portfolio — no
- *  component files need to be touched.
+ *  PORTFOLIO CONFIGURATION FILE — Pakhi Saxena
+ *  Edit this file to update your entire portfolio.
  * ============================================================
  */
 
 export const personal = {
-  name: "Alexandra Whitmore",
-  firstName: "Alexandra",
-  profession: "Full-Stack Engineer & Creative Technologist",
+  name: "Pakhi Saxena",
+  firstName: "Pakhi",
+  profession: "ECE Student | Software Developer | AI Enthusiast",
   taglines: [
-    "building elegant digital experiences",
-    "crafting scalable web applications",
-    "turning ideas into reality",
-    "passionate about clean code",
-    "designing with purpose",
+    "B.Tech ECE • Class of 2029",
+    "Software Developer",
+    "AI & Machine Learning Enthusiast",
+    "Building Real-World Projects",
+    "Always Learning, Always Building",
   ],
-  bio: `I'm a London-based software engineer with a love for building beautifully
-  functional digital products. With a background in both design and engineering,
-  I bridge the gap between aesthetics and technology — creating experiences that
-  are as delightful to use as they are robust under the hood.`,
-  bioExtended: `When I'm not writing code, you'll find me exploring design exhibitions,
-  contributing to open-source projects, or enjoying a perfectly brewed cup of tea.
-  I believe great software is built at the intersection of craft, curiosity, and care.`,
+  bio: `I'm an Electronics and Communication Engineering student with a passion for software development, artificial intelligence, and building impactful digital products. I enjoy transforming ideas into scalable applications while continuously learning new technologies and solving real-world problems.`,
+  bioExtended: `Alongside my engineering studies, I actively build full-stack applications, AI-powered tools, and machine learning projects. My interests span software engineering, web development, artificial intelligence, open-source contribution, and modern development practices. I believe the best way to learn is by building — whether through hackathons, personal projects, or sharpening my DSA skills.`,
 
-  // Profile image — replace with your own URL or import
+  // Profile image — replace with your own photo URL
   avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&q=80",
 
-  // Location
-  location: "London, United Kingdom",
-
-  // Resume / CV link
+  location: "New Delhi, India",
   resumeUrl: "#",
-
-  // Email
-  email: "hello@alexandrawhitmore.dev",
-
-  // Phone (optional — set to null to hide)
-  phone: "+44 7700 900 123",
+  email: "pakhisaxena217@gmail.com",
+  phone: null, // Add your phone number or keep null to hide
 };
 
 export const social = {
-  github: "https://github.com/username",
-  linkedin: "https://linkedin.com/in/username",
-  instagram: "https://instagram.com/username",
-  twitter: "https://twitter.com/username",
-  // Add or remove as needed
+  github: "https://github.com/pakhi217",
+  linkedin: "https://linkedin.com/in/pakhi-saxena-7a7665366",
+  instagram: null,
+  twitter: null,
 };
 
 // ── Skills ──────────────────────────────────────────────────
 export const skills = [
   {
-    category: "Frontend",
+    category: "Programming Languages",
     items: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 88 },
-      { name: "Tailwind CSS", level: 92 },
-      { name: "Framer Motion", level: 80 },
-      { name: "Vue.js", level: 70 },
+      { name: "C++", level: 85 },
+      { name: "Python", level: 88 },
+      { name: "C", level: 80 },
+      { name: "JavaScript", level: 78 },
     ],
   },
   {
-    category: "Backend",
+    category: "AI & Machine Learning",
     items: [
-      { name: "Node.js / Express", level: 90 },
-      { name: "Python / FastAPI", level: 85 },
-      { name: "PostgreSQL", level: 82 },
-      { name: "MongoDB", level: 78 },
-      { name: "GraphQL", level: 72 },
-    ],
-  },
-  {
-    category: "AI & ML",
-    items: [
-      { name: "LangChain / LangGraph", level: 80 },
-      { name: "OpenAI / Claude APIs", level: 88 },
-      { name: "Scikit-learn", level: 75 },
-      { name: "TensorFlow", level: 65 },
+      { name: "Scikit-learn", level: 82 },
+      { name: "Pandas / NumPy", level: 88 },
       { name: "Streamlit", level: 85 },
+      { name: "OpenAI / Claude APIs", level: 80 },
+      { name: "TensorFlow", level: 65 },
     ],
   },
   {
-    category: "Tools & DevOps",
+    category: "Web Development",
     items: [
-      { name: "Git / GitHub", level: 95 },
-      { name: "Docker", level: 78 },
-      { name: "AWS / Vercel", level: 80 },
-      { name: "Figma", level: 82 },
-      { name: "Linux / Bash", level: 75 },
+      { name: "HTML / CSS", level: 85 },
+      { name: "React", level: 78 },
+      { name: "FastAPI", level: 80 },
+      { name: "REST APIs", level: 82 },
+    ],
+  },
+  {
+    category: "Tools & Technologies",
+    items: [
+      { name: "Git / GitHub", level: 90 },
+      { name: "Vercel", level: 75 },
+      { name: "Figma", level: 70 },
+      { name: "Bash / Linux", level: 72 },
+      { name: "KiCad", level: 60 },
     ],
   },
 ];
@@ -97,73 +81,49 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "LifeSaver AI",
-    subtitle: "AI-Powered Productivity Companion",
+    title: "RepoScout AI",
+    subtitle: "AI-Powered GitHub Explorer",
     description:
-      "An intelligent productivity companion built with React and Google Gemini that helps users manage tasks, set priorities, and maintain focus throughout their day with AI-driven insights.",
-    tags: ["React", "Google Gemini", "AI", "Productivity"],
-    image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&q=80",
-    github: "https://github.com/username/lifesaver-ai",
+      "An AI-powered GitHub repository explorer that helps developers search, analyze, and understand repositories through intelligent summaries and insights.",
+    tags: ["Next.js", "TypeScript", "GitHub API", "AI"],
+    image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&q=80",
+    github: "https://github.com/pakhi217",
     live: "#",
     featured: true,
   },
   {
     id: 2,
-    title: "RepoScout AI",
-    subtitle: "GitHub Repository Explorer",
+    title: "SBI LifePilot AI",
+    subtitle: "Multi-Agent Banking Assistant",
     description:
-      "A Next.js TypeScript application with glassmorphism design that allows developers to intelligently search, filter, and explore GitHub repositories with AI-enhanced summaries.",
-    tags: ["Next.js", "TypeScript", "GitHub API", "Glassmorphism"],
-    image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&q=80",
-    github: "https://github.com/username/reposcout-ai",
+      "A multi-agent AI banking assistant developed for the SBI Innovate Hackathon using Claude and LangGraph, designed to deliver intelligent financial guidance and digital engagement.",
+    tags: ["React", "Claude API", "LangGraph", "FinTech"],
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+    github: "https://github.com/pakhi217",
     live: "#",
     featured: true,
   },
   {
     id: 3,
-    title: "Lumina Research AI",
-    subtitle: "Intelligent Research Assistant",
+    title: "Fraud Detection System",
+    subtitle: "ML-Powered Financial Security",
     description:
-      "A Streamlit-based research assistant integrating EXA Search and Claude APIs to help researchers discover, synthesise, and organise academic information efficiently.",
-    tags: ["Streamlit", "Python", "Claude API", "EXA Search"],
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80",
-    github: "https://github.com/username/lumina-research",
+      "An end-to-end machine learning system that detects fraudulent financial transactions using XGBoost, Random Forest, SHAP explainability, FastAPI, and a Streamlit dashboard.",
+    tags: ["Python", "XGBoost", "SHAP", "FastAPI", "Streamlit"],
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+    github: "https://github.com/pakhi217/Fraud-Detection-System",
     live: "#",
     featured: true,
   },
   {
     id: 4,
-    title: "SBI LifePilot AI",
-    subtitle: "Multi-Agent Banking Assistant",
+    title: "LifeSaver AI",
+    subtitle: "AI Productivity Companion",
     description:
-      "A sophisticated multi-agent React banking assistant using Claude and LangGraph built for the SBI Innovate Hackathon, featuring intelligent financial guidance and digital engagement tools.",
-    tags: ["React", "Claude", "LangGraph", "FinTech"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
-    github: "https://github.com/username/sbi-lifepilot",
-    live: "#",
-    featured: false,
-  },
-  {
-    id: 5,
-    title: "Fraud Detection System",
-    subtitle: "ML-Powered Financial Security",
-    description:
-      "An end-to-end fraud detection system using SMOTE, XGBoost, and Random Forest with SHAP explainability, deployed via a Streamlit dashboard and FastAPI backend.",
-    tags: ["Python", "XGBoost", "SHAP", "FastAPI", "Streamlit"],
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-    github: "https://github.com/username/fraud-detection",
-    live: "#",
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "Heritage E-Commerce Platform",
-    subtitle: "Luxury Brand Digital Presence",
-    description:
-      "A premium single-page heritage catering brand website with twelve sections, scroll animations, and a warm terracotta/gold design language celebrating Indian artisanal culture.",
-    tags: ["HTML", "CSS", "JavaScript", "Animation"],
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80",
-    github: "https://github.com/username/heritage-ecommerce",
+      "An AI-powered productivity companion that helps users organize tasks, prioritize work, and improve daily productivity using intelligent recommendations.",
+    tags: ["React", "Google Gemini", "AI", "Productivity"],
+    image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&q=80",
+    github: "https://github.com/pakhi217",
     live: "#",
     featured: false,
   },
@@ -173,43 +133,16 @@ export const projects = [
 export const experience = [
   {
     id: 1,
-    role: "Senior Full-Stack Engineer",
-    company: "Meridian Digital Studio",
-    location: "London, UK",
-    duration: "Jan 2023 – Present",
-    description:
-      "Leading development of scalable SaaS products for fintech clients, architecting React frontends and Node.js microservices. Championed the adoption of AI-assisted features across the product suite.",
-    highlights: [
-      "Reduced page load times by 40% through code-splitting and lazy loading",
-      "Mentored a team of 4 junior engineers",
-      "Delivered 3 major product launches on schedule",
-    ],
-  },
-  {
-    id: 2,
-    role: "Software Engineer",
-    company: "Bloom Technology",
+    role: "Open Source Contributor",
+    company: "GirlScript Summer of Code (GSSoC)",
     location: "Remote",
-    duration: "Jun 2021 – Dec 2022",
+    duration: "2026",
     description:
-      "Built and maintained full-stack features for a B2B SaaS platform serving 10,000+ users. Focused on performance optimisation and accessible UI development.",
+      "Contributing to open-source projects as part of GSSoC 2026, collaborating with developers globally to improve codebases, fix bugs, and add meaningful features.",
     highlights: [
-      "Migrated legacy jQuery codebase to React 18",
-      "Implemented real-time collaboration using WebSockets",
-      "Improved test coverage from 42% to 87%",
-    ],
-  },
-  {
-    id: 3,
-    role: "Frontend Developer Intern",
-    company: "Clarity Agency",
-    location: "Manchester, UK",
-    duration: "Sep 2020 – May 2021",
-    description:
-      "Collaborated with designers to build responsive marketing websites and internal tooling. Gained strong foundations in React and design systems.",
-    highlights: [
-      "Built 8 client-facing landing pages",
-      "Created a reusable component library adopted across 3 projects",
+      "Contributing to real-world open-source repositories",
+      "Collaborating with a global community of developers",
+      "Improving code quality and documentation across projects",
     ],
   },
 ];
@@ -218,23 +151,33 @@ export const experience = [
 export const education = [
   {
     id: 1,
-    degree: "BSc Computer Science",
-    institution: "University of Edinburgh",
-    location: "Edinburgh, UK",
-    duration: "2017 – 2021",
-    grade: "First Class Honours",
+    degree: "Bachelor of Technology — Electronics & Communication Engineering",
+    institution: "Jaypee Institute of Information Technology (JIIT)",
+    location: "Noida, India",
+    duration: "2025 – 2029",
+    grade: "B.Tech • Class of 2029",
     description:
-      "Specialised in Artificial Intelligence and Human-Computer Interaction. Dissertation on neural network optimisation for edge devices.",
+      "Focused on software development, artificial intelligence, embedded systems, and innovative technology solutions while building strong problem-solving and programming skills.",
   },
   {
     id: 2,
-    degree: "A-Levels: Mathematics, Further Mathematics, Physics",
-    institution: "St. Hilda's Sixth Form College",
-    location: "Oxford, UK",
-    duration: "2015 – 2017",
-    grade: "A*A*A",
+    degree: "Senior Secondary Education (Class XII)",
+    institution: "Cambridge School",
+    location: "Noida, India",
+    duration: "Completed 2025",
+    grade: "91%",
     description:
-      "Developed a strong analytical foundation that underpins my engineering approach to problem-solving.",
+      "Developed a strong academic foundation in mathematics, science, and analytical thinking that underpins my engineering approach to problem-solving.",
+  },
+  {
+    id: 3,
+    degree: "Secondary Education (Class X)",
+    institution: "Cambridge School",
+    location: "Noida, India",
+    duration: "Completed 2023",
+    grade: "97%",
+    description:
+      "Built early academic excellence with top performance across core subjects, establishing the discipline and curiosity that drives my learning today.",
   },
 ];
 
@@ -242,60 +185,64 @@ export const education = [
 export const achievements = [
   {
     id: 1,
-    title: "VIBE2SHIP Hackathon Winner",
-    organisation: "Coding Ninjas × Google for Developers",
-    year: "2025",
-    description: "First place for LifeSaver AI — an AI-powered productivity companion.",
-    icon: "🏆",
+    title: "GSSoC Open Source Contributor",
+    organisation: "GirlScript Summer of Code",
+    year: "2026",
+    description:
+      "Selected as an open-source contributor for GSSoC 2026, contributing to real-world projects alongside a global developer community.",
+    icon: "🌟",
   },
   {
     id: 2,
-    title: "SBI Innovate 2025 Finalist",
+    title: "SBI Innovate Hackathon",
     organisation: "State Bank of India",
     year: "2025",
-    description: "Top-10 finalist for the Digital Engagement track with SBI LifePilot AI.",
-    icon: "🥈",
+    description:
+      "Built SBI LifePilot AI — a multi-agent banking assistant — for the SBI Innovate Hackathon's Digital Engagement track.",
+    icon: "🏦",
   },
   {
     id: 3,
-    title: "Google Developer Scholarship",
-    organisation: "Google",
-    year: "2023",
-    description: "Awarded the Google Developer Scholarship for excellence in web technologies.",
-    icon: "🎓",
+    title: "Multiple AI-Powered Projects",
+    organisation: "Personal Portfolio",
+    year: "2024 – Present",
+    description:
+      "Built several production-grade AI and full-stack applications including RepoScout AI, LifeSaver AI, and a Fraud Detection System.",
+    icon: "🚀",
   },
   {
     id: 4,
-    title: "Open Source Contributor",
-    organisation: "Various",
-    year: "2022 – Present",
-    description: "Active contributor to open-source projects with 300+ GitHub stars across repositories.",
-    icon: "⭐",
+    title: "Class X — 97%",
+    organisation: "Cambridge School, Noida",
+    year: "2023",
+    description:
+      "Achieved 97% in Class X board examinations, demonstrating academic excellence and a strong foundation in science and mathematics.",
+    icon: "🎓",
   },
   {
     id: 5,
-    title: "Tech Women Community Leader",
-    organisation: "TechWomen UK",
-    year: "2024",
+    title: "Class XII — 91%",
+    organisation: "Cambridge School, Noida",
+    year: "2025",
     description:
-      "Recognised for mentoring 20+ women transitioning into software engineering careers.",
-    icon: "💜",
+      "Scored 91% in Class XII board examinations while simultaneously building software projects and preparing for engineering.",
+    icon: "📜",
   },
   {
     id: 6,
-    title: "Best Final Year Project",
-    organisation: "University of Edinburgh",
-    year: "2021",
+    title: "DSA & Competitive Programming",
+    organisation: "Self-Driven",
+    year: "2024 – Present",
     description:
-      "Awarded best dissertation in the School of Informatics for neural network research.",
-    icon: "📜",
+      "Continuously sharpening Data Structures & Algorithms skills through coding challenges, problem sets, and competitive programming platforms.",
+    icon: "💻",
   },
 ];
 
 // ── Contact ──────────────────────────────────────────────────
 export const contact = {
-  heading: "Let's Create Something Beautiful",
+  heading: "Let's Build Something Together",
   subheading:
-    "Whether you have a project in mind, a question, or simply want to connect — I'd love to hear from you.",
-  availability: "Currently open to freelance & full-time opportunities",
+    "Whether you have a project idea, collaboration opportunity, or just want to connect — I'd love to hear from you.",
+  availability: "Open to internships, collaborations & open-source projects",
 };
