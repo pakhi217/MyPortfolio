@@ -236,6 +236,15 @@ The contact form currently simulates a submission. To make it functional, replac
 
 ---
 
+## PROJECT STATUS
+
+Currently under active development.
+
+## AUTHOR 
+**PAKHI SAXENA**
+
+
+
 ## 📄 License
 
 MIT — free to use and adapt for your own portfolio.
